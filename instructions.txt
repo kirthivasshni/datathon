@@ -1,3 +1,38 @@
+Before you begin, ensure you have the following installed:
+
+- Python 3.9
+- pip
+- Git
+
+1) Clone the Repository
+
+git clone https://github.com/kirthivasshni/datathon
+
+2) navigate to the project directory
+
+cd datathon
+
+3) create and activate the virtual environment 
+
+python -m venv spacy_venv
+spacy_venv\Scripts\activate
+
+4) install the dependencies 
+
+pip install -r requirements.txt
+
+5) to run the code
+
+python main.py
+
+6) to exit virtual environment
+
+deactivate
+
+
+
+#### for my own reference 
+
 installing virtual environment:
 --> C:\Users\kirth_fjsrgwf\AppData\Local\Programs\Python\Python39\python -m venv spacy_venv
 --> need python 3.9 i think, and also the 64 bit version
