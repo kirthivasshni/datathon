@@ -1,0 +1,15 @@
+installing virtual environment:
+--> C:\Users\kirth_fjsrgwf\AppData\Local\Programs\Python\Python39\python -m venv spacy_venv
+--> need python 3.9 i think, and also the 64 bit version
+
+activating venv:
+--> spacy_venv\Scripts\activate
+
+installing spacy:
+--> pip install spacy
+
+installing language model in english:
+--> python -m spacy download en_core_web_sm
+
+deactivating venv:
+--> deactivate
